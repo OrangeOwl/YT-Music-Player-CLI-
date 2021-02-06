@@ -1,4 +1,4 @@
-# YT-Music-Player-CLI-
+# YT Music Player -CLI (Command-Line Interface)-
 A Youtube Music Player for playing songs over command-line written in Python
 
 ## Required Python Libraries
