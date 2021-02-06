@@ -1,14 +1,14 @@
 # YT Music Player -CLI (Command-Line Interface)-
 A Youtube Music Player for playing songs over command-line written in Python
 
+## Required Applications
+* VLC
+* Python 3
+
 ## Required Python Libraries
 * vlc
 * pafy
 * mechanize
-
-## Required Applications
-* VLC
-* Python 3
 
 ## A very simple and bare-bones CLI player for VLC
 * The goal of this project was to make a simple VLC-based CLI player that can cycle through my youtube music playlist without requiring downloading the video (which takes up unnecessary bandwidth) and without playing ads
