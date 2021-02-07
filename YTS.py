@@ -73,7 +73,6 @@ def title(arg):
 def playing():
     print("#####################################################")
     print("Hit Enter to Skip the Song")
-    print("Type Anything Else to Xxit")
     choice = input('>>> ')
     if choice.lower() == '':
         media.stop()
