@@ -18,8 +18,6 @@ def pick_song():
     music = file.read().split('\n')
     file.close()
     music.remove("")
-    #print(music)
-    #track = random.choice(music)
 
 # THE ROOT FUNCTION
 def shuffle_track():
@@ -54,14 +52,14 @@ def shuffle_track():
         try:
         #cancel current timer if running
            start_timer.cancel()
-           print("TIMER RESTARED")
+           #print("TIMER RESTARED")
         #start new timer   
            start_timer = threading.Timer(SECONDS, shuffle_track)
            start_timer.start()
            playing()
         except:
         #start new timer
-           print("TIMER ACTIVE")
+           #print("TIMER ACTIVE")
            start_timer = threading.Timer(SECONDS, shuffle_track)
            start_timer.start()
            playing()
