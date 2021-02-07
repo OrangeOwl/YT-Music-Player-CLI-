@@ -15,5 +15,5 @@ A Youtube Music Player for playing songs over command-line written in Python
 * The goal of this project was to make a simple VLC-based CLI player that can cycle through my youtube music playlist without requiring downloading the video (which takes up unnecessary bandwidth) and without playing ads
 
 ## Commands/How to Run
-* to run the script, type: 'python3 YTS.py' in your command line/terminal
-* Once running, there are two available commands: STOP and NEXT (which are pretty self explanatory)
+* First gather a bunch of youtube urls and add them to the .m3u file (with a url on each line)
+* Then to run the script, type: 'python3 YTS.py' in your command line/terminal
